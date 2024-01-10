@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e3a1084190cf3468972d1b72f78132, type: 3}
+  m_Name: UIEntityPool (MatchScene)
+  m_EditorClassIdentifier: 
+  sceneUIPool:
+  - {fileID: 5826860478901800369, guid: c1f25367e619de04f847717ba1e3adab, type: 3}
+  - {fileID: 1056897859968417577, guid: 96269ae0bf4b4874fa762f803a9d8dd3, type: 3}
+  - {fileID: 3925140167725163932, guid: e2e7fc7f824efce418ea4e8390700202, type: 3}

@@ -1,0 +1,349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da0a73715e0557e46901636887fdcdd5, type: 3}
+  m_Name: Level 0
+  m_EditorClassIdentifier: 
+  levelIndex: 0
+  movesCount: 41
+  rowCount: 8
+  columnCount: 6
+  blockPool: 0300000002000000010000000500000007000000060000000800000009000000
+  goalValues:
+  - goalId: 1
+    requirement: 150
+  - goalId: 2
+    requirement: 500
+  - goalId: 7
+    requirement: 1
+  gridCoordinates:
+  - startBlockType: 3
+    matchPositions:
+    - {x: 0, y: 0}
+    gridPosition: {x: 0, y: 0}
+    relativePosition: {x: -480, y: 672}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 1
+    matchPositions:
+    - {x: 0, y: 1}
+    gridPosition: {x: 0, y: 1}
+    relativePosition: {x: -288, y: 672}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 2
+    matchPositions:
+    - {x: 0, y: 2}
+    gridPosition: {x: 0, y: 2}
+    relativePosition: {x: -96, y: 672}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 1
+    matchPositions:
+    - {x: 0, y: 3}
+    gridPosition: {x: 0, y: 3}
+    relativePosition: {x: 96, y: 672}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 3
+    matchPositions:
+    - {x: 0, y: 4}
+    gridPosition: {x: 0, y: 4}
+    relativePosition: {x: 288, y: 672}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 2
+    matchPositions:
+    - {x: 0, y: 5}
+    gridPosition: {x: 0, y: 5}
+    relativePosition: {x: 480, y: 672}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 1
+    matchPositions:
+    - {x: 1, y: 0}
+    gridPosition: {x: 1, y: 0}
+    relativePosition: {x: -480, y: 480}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 3
+    matchPositions:
+    - {x: 1, y: 1}
+    gridPosition: {x: 1, y: 1}
+    relativePosition: {x: -288, y: 480}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 1
+    matchPositions:
+    - {x: 1, y: 2}
+    gridPosition: {x: 1, y: 2}
+    relativePosition: {x: -96, y: 480}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 5
+    matchPositions:
+    - {x: 1, y: 3}
+    gridPosition: {x: 1, y: 3}
+    relativePosition: {x: 96, y: 480}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 3
+    matchPositions:
+    - {x: 1, y: 4}
+    - {x: 1, y: 5}
+    gridPosition: {x: 1, y: 4}
+    relativePosition: {x: 288, y: 480}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 5
+    matchPositions:
+    - {x: 1, y: 5}
+    - {x: 1, y: 4}
+    gridPosition: {x: 1, y: 5}
+    relativePosition: {x: 480, y: 480}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 2
+    matchPositions:
+    - {x: 2, y: 0}
+    - {x: 3, y: 0}
+    gridPosition: {x: 2, y: 0}
+    relativePosition: {x: -480, y: 288}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 2
+    matchPositions:
+    - {x: 2, y: 1}
+    gridPosition: {x: 2, y: 1}
+    relativePosition: {x: -288, y: 288}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 5
+    matchPositions:
+    - {x: 2, y: 2}
+    gridPosition: {x: 2, y: 2}
+    relativePosition: {x: -96, y: 288}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 3
+    matchPositions:
+    - {x: 2, y: 3}
+    gridPosition: {x: 2, y: 3}
+    relativePosition: {x: 96, y: 288}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 3
+    matchPositions:
+    - {x: 2, y: 4}
+    - {x: 3, y: 4}
+    gridPosition: {x: 2, y: 4}
+    relativePosition: {x: 288, y: 288}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 3
+    matchPositions:
+    - {x: 2, y: 5}
+    gridPosition: {x: 2, y: 5}
+    relativePosition: {x: 480, y: 288}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 3
+    matchPositions:
+    - {x: 3, y: 0}
+    - {x: 2, y: 0}
+    gridPosition: {x: 3, y: 0}
+    relativePosition: {x: -480, y: 96}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 3
+    matchPositions:
+    - {x: 3, y: 1}
+    gridPosition: {x: 3, y: 1}
+    relativePosition: {x: -288, y: 96}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 2
+    matchPositions:
+    - {x: 3, y: 2}
+    gridPosition: {x: 3, y: 2}
+    relativePosition: {x: -96, y: 96}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 3
+    matchPositions:
+    - {x: 3, y: 3}
+    gridPosition: {x: 3, y: 3}
+    relativePosition: {x: 96, y: 96}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 2
+    matchPositions:
+    - {x: 3, y: 4}
+    - {x: 2, y: 4}
+    gridPosition: {x: 3, y: 4}
+    relativePosition: {x: 288, y: 96}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 6
+    matchPositions:
+    - {x: 3, y: 5}
+    gridPosition: {x: 3, y: 5}
+    relativePosition: {x: 480, y: 96}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 8
+    matchPositions:
+    - {x: 4, y: 0}
+    gridPosition: {x: 4, y: 0}
+    relativePosition: {x: -480, y: -96}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 1
+    matchPositions:
+    - {x: 4, y: 1}
+    gridPosition: {x: 4, y: 1}
+    relativePosition: {x: -288, y: -96}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 5
+    matchPositions:
+    - {x: 4, y: 2}
+    gridPosition: {x: 4, y: 2}
+    relativePosition: {x: -96, y: -96}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 1
+    matchPositions:
+    - {x: 4, y: 3}
+    - {x: 4, y: 4}
+    gridPosition: {x: 4, y: 3}
+    relativePosition: {x: 96, y: -96}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 3
+    matchPositions:
+    - {x: 4, y: 4}
+    - {x: 4, y: 3}
+    gridPosition: {x: 4, y: 4}
+    relativePosition: {x: 288, y: -96}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 1
+    matchPositions:
+    - {x: 4, y: 5}
+    gridPosition: {x: 4, y: 5}
+    relativePosition: {x: 480, y: -96}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 3
+    matchPositions:
+    - {x: 5, y: 0}
+    gridPosition: {x: 5, y: 0}
+    relativePosition: {x: -480, y: -288}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 3
+    matchPositions:
+    - {x: 5, y: 1}
+    - {x: 5, y: 2}
+    gridPosition: {x: 5, y: 1}
+    relativePosition: {x: -288, y: -288}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 1
+    matchPositions:
+    - {x: 5, y: 2}
+    - {x: 5, y: 1}
+    gridPosition: {x: 5, y: 2}
+    relativePosition: {x: -96, y: -288}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 1
+    matchPositions:
+    - {x: 5, y: 3}
+    - {x: 6, y: 3}
+    - {x: 6, y: 2}
+    - {x: 5, y: 4}
+    - {x: 5, y: 5}
+    gridPosition: {x: 5, y: 3}
+    relativePosition: {x: 96, y: -288}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 3
+    matchPositions:
+    - {x: 5, y: 4}
+    - {x: 5, y: 5}
+    - {x: 5, y: 3}
+    - {x: 6, y: 3}
+    - {x: 6, y: 2}
+    gridPosition: {x: 5, y: 4}
+    relativePosition: {x: 288, y: -288}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 2
+    matchPositions:
+    - {x: 5, y: 5}
+    - {x: 5, y: 4}
+    - {x: 5, y: 3}
+    - {x: 6, y: 3}
+    - {x: 6, y: 2}
+    gridPosition: {x: 5, y: 5}
+    relativePosition: {x: 480, y: -288}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 2
+    matchPositions:
+    - {x: 6, y: 0}
+    gridPosition: {x: 6, y: 0}
+    relativePosition: {x: -480, y: -480}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 2
+    matchPositions:
+    - {x: 6, y: 1}
+    gridPosition: {x: 6, y: 1}
+    relativePosition: {x: -288, y: -480}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 7
+    matchPositions:
+    - {x: 6, y: 2}
+    - {x: 6, y: 3}
+    - {x: 5, y: 3}
+    - {x: 5, y: 4}
+    - {x: 5, y: 5}
+    gridPosition: {x: 6, y: 2}
+    relativePosition: {x: -96, y: -480}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 3
+    matchPositions:
+    - {x: 6, y: 3}
+    - {x: 5, y: 3}
+    - {x: 5, y: 4}
+    - {x: 5, y: 5}
+    - {x: 6, y: 2}
+    gridPosition: {x: 6, y: 3}
+    relativePosition: {x: 96, y: -480}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 3
+    matchPositions:
+    - {x: 6, y: 4}
+    - {x: 6, y: 5}
+    gridPosition: {x: 6, y: 4}
+    relativePosition: {x: 288, y: -480}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 3
+    matchPositions:
+    - {x: 6, y: 5}
+    - {x: 6, y: 4}
+    gridPosition: {x: 6, y: 5}
+    relativePosition: {x: 480, y: -480}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 2
+    matchPositions:
+    - {x: 7, y: 0}
+    - {x: 7, y: 1}
+    gridPosition: {x: 7, y: 0}
+    relativePosition: {x: -480, y: -672}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 1
+    matchPositions:
+    - {x: 7, y: 1}
+    - {x: 7, y: 0}
+    gridPosition: {x: 7, y: 1}
+    relativePosition: {x: -288, y: -672}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 2
+    matchPositions:
+    - {x: 7, y: 2}
+    gridPosition: {x: 7, y: 2}
+    relativePosition: {x: -96, y: -672}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 2
+    matchPositions:
+    - {x: 7, y: 3}
+    gridPosition: {x: 7, y: 3}
+    relativePosition: {x: 96, y: -672}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 2
+    matchPositions:
+    - {x: 7, y: 4}
+    gridPosition: {x: 7, y: 4}
+    relativePosition: {x: 288, y: -672}
+    relativeSize: {x: 192, y: 192}
+  - startBlockType: 3
+    matchPositions:
+    - {x: 7, y: 5}
+    gridPosition: {x: 7, y: 5}
+    relativePosition: {x: 480, y: -672}
+    relativeSize: {x: 192, y: 192}
